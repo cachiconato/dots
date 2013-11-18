@@ -4,6 +4,10 @@ export EDITOR=vim
 # set the term to have 256 colors
 export TERM=xterm-256color
 
+# set the HISTFILESIZE
+export HISTFILESIZE=2000
+export HISTSIZE=2000
+
 #source the colors configuration
 source "$HOME/.dots/bash/conf/colors"
 
