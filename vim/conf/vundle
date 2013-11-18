@@ -10,6 +10,9 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
+" Color scheme
+Bundle "altercation/vim-colors-solarized"
+
 " Enhancing editing/typing related
 Bundle "vim-scripts/matchit.zip"
 Bundle "tpope/vim-surround"

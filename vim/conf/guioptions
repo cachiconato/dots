@@ -1,7 +1,9 @@
 " vim: filetype=vim
 
 " Sets the colorscheme
-colorscheme wombat256mod
+syntax enable
+set background=dark
+colorscheme solarized
 
 " set the space from the current line when scrolling
 set scrolloff=3
@@ -18,6 +20,12 @@ let g:Powerline_symbols = 'fancy'
 
 " sets numbers
 set nu
+
+"Highlight just the linenumber to highlight the line too just remove the liine hi clean CursorLine
+set cursorline
+hi CursorLine cterm=none
+hi clear CursorLine
+hi CursorLineNr ctermfg=3
 
 " load the status line
 source ~/.vim/conf/statusline

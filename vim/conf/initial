@@ -13,9 +13,6 @@ set laststatus=2
 set incsearch
 set hlsearch
 
-" Set change word to append a dollar at the end of the selection
-set cpoptions+=$
-
 " Shows cmd that is currently being typed
 set showcmd
 
@@ -38,7 +35,7 @@ set shiftwidth=2
 set expandtab
 
 " Sets the vim clipboard to be shared with the OS
-set clipboard=unnamed
+"set clipboard=unnamed
 
 " Removes weird coloring in TMUX
 set t_ut=
