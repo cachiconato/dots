@@ -3,15 +3,12 @@
 " required!
 filetype off
 
-set rtp+=~/.vim/vundle/autoload/vundle/
+set rtp+=~/.vim/vundle/autoload
 call vundle#rc()
 
 " let Vundle manage Vundle
 " required!
 Bundle 'gmarik/vundle'
-
-" Color scheme
-Bundle "altercation/vim-colors-solarized"
 
 " Enhancing editing/typing related
 Bundle "vim-scripts/matchit.zip"
@@ -42,7 +39,7 @@ Bundle "Lokaltog/vim-powerline"
 Bundle "mileszs/ack.vim"
 
 " Colorscheme related
-Bundle "vim-scripts/wombat256.vim"
+Bundle "altercation/vim-colors-solarized"
 
 " Git related
 " Bundle airblade/vim-gitgutter
