@@ -1,6 +1,6 @@
 #!/bin/bash
 
-alias gg="cd $WORKSPACE/gap/gid"
+alias gg="cd $HOME/github/alugator"
 alias gb="cd $WORKSPACE/gap/brazil-build"
 
 # Resolves the ecom dependencies
