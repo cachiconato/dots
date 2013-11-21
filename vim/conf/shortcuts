@@ -19,8 +19,9 @@ nnoremap <silent> <F2> :NERDTreeToggle<cr>
 nnoremap <leader><leader> <c-^>
 
 " Maps the maximizing of a window to space space
-nnoremap <expr> <silent> <space><space> ":vertical res<cr>:res<cr>"
+"nnoremap <expr> <silent> <space><space> ":vertical res<cr>:res<cr>"
 " Makes all the windows to have the same size
+nnoremap <silent> <space><space> :ZoomWin<CR>
 nnoremap <space>= <c-w>=
 
 " Maps the CTRL-w j to CTRL-j
