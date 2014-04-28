@@ -1,6 +1,7 @@
 # make it colorful
-alias ls='ls -G'
+alias ls='ls -FG --color=auto'
 alias grep='grep --color=auto'
+alias fs='du -hsc *'
 
 # set move and copy to be verbose
 alias mv="mv -v"
@@ -21,3 +22,8 @@ alias gsn="cd $WORKSPACE/javascript/node"
 alias gr="cd $WORKSPACE/ruby"
 alias grr="cd $WORKSPACE/ruby/rails"
 alias grs="cd $WORKSPACE/ruby/sinatra"
+
+#Git aliases
+alias grh="git reset HEAD"
+alias gci="git commit -m"
+

@@ -5,7 +5,7 @@ export EDITOR=vim
 export TERM=xterm-256color
 
 # set the HISTFILESIZE
-export HISTFILESIZE=2000
+export HISTFILESIZE=10000
 export HISTSIZE=2000
 
 #source the colors configuration
