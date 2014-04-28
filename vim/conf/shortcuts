@@ -47,6 +47,7 @@ map <leader>n :call RenameFile()<cr>
 
 " Maps searching with ack
 noremap <Leader>a :Ack <cword><cr>
+nnoremap <C-n> :call NumberToggle()<cr>
 
 " Maps showing gundo tree view
 " nnoremap <F3> :GundoToggle<CR>
