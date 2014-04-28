@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 " Enhancing editing/typing related
 Bundle "vim-scripts/matchit.zip"
 Bundle "tpope/vim-surround"
+Bundle "tpope/vim-repeat"
 Bundle "ervandew/supertab"
 
 " Comments related
