@@ -47,5 +47,5 @@ set timeout timeoutlen=1000 ttimeoutlen=100
 
 set tags=./tags;
 
-#force old regex style for ruby syntax performance
+"force old regex style for ruby syntax performance
 set re=1

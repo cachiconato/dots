@@ -4,7 +4,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/autoload
+set rtp+=~/.vim/autoload/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle
@@ -12,17 +12,17 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Enhancing editing/typing related
-Plugin "vim-scripts/matchit.zip"
-Plugin "gregsexton/MatchTag"
-Plugin "tpope/vim-surround"
-Plugin "tpope/vim-repeat"
-Plugin "ervandew/supertab"
+Plugin 'vim-scripts/matchit.zip'
+Plugin 'gregsexton/MatchTag'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
+Plugin 'ervandew/supertab'
 
 " Comments related
 " Plugin ddollar/nerdcommenter
 
 " Parenthesis
-Plugin "kien/rainbow_parentheses.vim"
+Plugin 'kien/rainbow_parentheses.vim'
 
 " Ruby related
 "Plugin slim-template/vim-slim
@@ -30,19 +30,19 @@ Plugin "kien/rainbow_parentheses.vim"
 "Plugin tpope/vim-rails
 
 " File/buffer navigation related
-Plugin "scrooloose/nerdtree"
-Plugin "kien/ctrlp.vim"
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
 
 " Vim interface related
-Plugin "vim-scripts/ZoomWin"
-Plugin "Lokaltog/vim-powerline"
+Plugin 'vim-scripts/ZoomWin'
+Plugin 'Lokaltog/vim-powerline'
 
 " Viewers related
 " Plugin sjl/gundo.vim
-Plugin "mileszs/ack.vim"
+Plugin 'mileszs/ack.vim'
 
 " Colorscheme related
-Plugin "altercation/vim-colors-solarized"
+Plugin 'altercation/vim-colors-solarized'
 
 " Track the engine.
 Plugin 'SirVer/ultisnips'
