@@ -1,6 +1,8 @@
 #!/bin/bash
 
 alias gg="cd $HOME/github/alugator"
+alias android="cd $HOME/AndroidStudioProjects/HelloWorld/alugator-android"
+alias lixo="cd $HOME/work/workspace/ecom"
 alias gb="cd $WORKSPACE/gap/brazil-build"
 
 # Resolves the ecom dependencies

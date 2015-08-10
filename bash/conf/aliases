@@ -1,7 +1,21 @@
 # make it colorful
 alias ls='ls -FG --color=auto'
 alias grep='grep --color=auto'
-alias fs='du -hsc *'
+
+# make it simpler
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../..'
+
+# path
+alias path='echo -e ${PATH//:/\\n}'
+
+# sudo
+alias root='sudo -i'
+
+# top
+alias cpu='top -o cpu'
+alias mem='top -o rsize' # memory
 
 # set move and copy to be verbose
 alias mv="mv -v"
@@ -12,6 +26,7 @@ alias vi="vim"
 alias g="git"
 alias r="rails"
 alias b="bundle"
+alias be="bundle exec"
 
 # Quickly go into the directories
 WORKSPACE="$HOME/workspaces"
@@ -29,4 +44,14 @@ alias gblog="cd $WORKSPACE/blogging/octopress"
 #Git aliases
 alias grh="git reset HEAD"
 alias gci="git commit -m"
+alias ctags="`brew --prefix`/bin/ctags"
 
+#General aliases
+alias l='ls -FG --color=auto'
+alias fs='du -hsc *'
+alias gdots="cd ~/.dots"
+alias gvim="cd ~/.vim"
+alias gblog="cd $WORKSPACE/blogging/octopress"
+
+# Prints out the most used commands
+alias habits='\history 500 | sed "s/^[[:space:]]*[0-9]*[[:space:]]*//" | sort | uniq -c | sort -n -r | head -n 10'

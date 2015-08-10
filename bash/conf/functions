@@ -109,6 +109,9 @@ fn() {
 
 vf() { vi $(fn "$1"); }
 
+killnow() {
+  ps -ef | grep $1 | grep -v grep | awk '{print $2}' | xargs kill -9
+}
 
 alias iso='while sleep 1; do echo "Going ..."; curl -s "http://ft04.gid.gap.com:8000/invoke?operation=build&amp;objectname=CruiseControl+Project%3Aname%3Dtrunk-allocation.isolated.functional-test" | grep 'Invocation'; done'
 
