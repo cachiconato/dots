@@ -47,7 +47,18 @@ map <leader>n :call RenameFile()<cr>
 
 " Maps searching with ack
 noremap <Leader>a :Ack <cword><cr>
+
+" Maps Control n to display relative numbers
 nnoremap <C-n> :call NumberToggle()<cr>
 
 " Maps showing gundo tree view
 " nnoremap <F3> :GundoToggle<CR>
+
+" Maps leader l to show invisble characters
+nmap <leader>l :set list!<cr>
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:▸\ ,eol:¬
+"Invisible character colors
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
+

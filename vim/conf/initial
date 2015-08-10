@@ -44,3 +44,8 @@ set t_ut=
 " http://ksjoberg.com/vim-esckeys.html
 " set noesckeys
 set timeout timeoutlen=1000 ttimeoutlen=100
+
+set tags=./tags;
+
+#force old regex style for ruby syntax performance
+set re=1
