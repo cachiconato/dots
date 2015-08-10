@@ -16,8 +16,10 @@ set wmnu
 
 " set a better font for mac os
 set guifont=Menlo\ For\ Powerline
-let g:Powerline_symbols = 'fancy'
-let g:Powerline_colorscheme='solarized16'
+
+let g:airline_theme = 'solarized'
+let g:airline_enable_branch = 1
+let g:airline_powerline_fonts = 1
 
 " sets numbers
 set nu
