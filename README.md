@@ -5,7 +5,7 @@ Installation
 
 - Clone the repository into your home directory.
 - Move, if it exists and you want to keep your configurations, your current .bash_profile to .bash_profile.local
-- Link the .bash_profile to the bash_profile inside the cloned repo (ln -s <CLONED_DIR>/bash/bash_profile .bash_profile)
+- run install.sh
 
 Dependencies
 ------------
